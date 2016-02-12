@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("prob13.txt")
+	file, err := os.Open("prob013.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
